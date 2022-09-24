@@ -1,0 +1,29 @@
+* {
+    transition: 0.4s;
+}
+.header {
+    min-height: 100vh;
+    background-image: url("../../public/images/header_thumbnail.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-size: 100% 100%;
+
+    .header-navbar {
+        .header-logo {
+            width: 165px;
+            height: 59px;
+        }
+
+        .navbars {
+            display: flex;
+            flex-direction: row !important;
+            align-items: center;
+
+            .navbar-item {
+                flex-grow: 1;
+                font-size: 50px;
+            }
+        }
+    }
+}
